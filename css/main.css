@@ -8,8 +8,8 @@ body{
   margin: 0px;
   padding: 0px;
   border: 0px;
-  background: #130405;
-  color: #ffffff;
+  background: #edf0f5;
+  color: #000000;
   overflow: auto;
   font-family: Sans;
   /*font-size: 20px;*/
@@ -35,14 +35,15 @@ html>body #site {height:auto}
 
 /* Navigation */
 div#navigation{
-  background: #400e12;
-  border: 2px solid #000000;
+  background: #c6040e;
+  border: 1px solid #000000;
   font-size: 120%;
   position: relative;
-  left: 0.05%;
+  left: 0%;
   width: 99.9%}
 div#lang{
   float: right;
+  padding-right: 0.5%;
   max-width: 33.3%;
   display: inline-block}
 div#mysites{
@@ -50,6 +51,7 @@ div#mysites{
   display: inline-block}
 div#thissite{
   float: left;
+  padding-left: 0.5%;
   width: 33.3%;
   display: inline-block}
 
@@ -57,11 +59,20 @@ div#thissite{
 div#contentbox{
   float: center;
   margin: auto;
-  padding: auto;
-  padding-top: 5%}
+  height: 300px;
+  padding: 0.5%}
 div#content{
-  text-align: center;
-  font-size: 90%}
+  float: center;
+  text-align: left;
+  height: 100%;
+  font-size: 100%}
+div#contentimg{
+  text-align:center;
+  font-size: 80%;
+  float: center;
+  padding: 1%;
+  width: 90%;
+  display: inline-block}
 
 /* Lists */
 div#lists{
@@ -69,6 +80,7 @@ div#lists{
   margin: auto;
   padding: auto;
   padding-top: 5%;
+  padding-bottom: 5%;
   text-align: center;
   font-size: 100%}
 div#projects{
@@ -88,7 +100,7 @@ div#recommend{
 
 /* Footer */
 div#footer{
-  padding-top: 4%;
+  padding: 1%;
   margin: auto;
   float: right;
   height: 90%;
@@ -96,19 +108,19 @@ div#footer{
   display: inline-block;
   font-size: 80%;
   text-align: right;
-  overflow: auto}
+  overflow: auto;
+  border-top: 1px solid #000000;}
 
 /* URLs */
 a{
-  color: #ffffff;
+  color: #000000;
   text-decoration: none}
 a:hover{
-  color: #ffffff;
-  background: rgba(255,255,255,0.1)}
+  color: #000000;
+  background: rgba(0,0,0,0.1)}
 
 /* Font-Types */
 p{
-  color: #ffffff;
+  color: #000000;
   letter-spacing: 2px;
-  border-bottom: 2px solid #D0D1CC;
-  }
+  border-bottom: 2px solid #000000}
