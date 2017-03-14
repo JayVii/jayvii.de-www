@@ -35,24 +35,20 @@ html>body #site {height:auto}
 
 /* Navigation */
 div#navigation{
-  background: #c6040e;
   border: 1px solid #000000;
-  font-size: 120%;
+  background: #c6040e;
+  font-size: 18px;
+  height: 22px;
   position: relative;
-  left: 0%;
-  width: 99.9%}
-div#style{
+  left: 0.5%;
+  width: 99%}
+div#mysites{
   float: right;
   padding-right: 0.5%;
-  max-width: 33.3%;
-  display: inline-block}
-div#mysites{
-  width: 33.3%;
   display: inline-block}
 div#thissite{
   float: left;
   padding-left: 0.5%;
-  width: 33.3%;
   display: inline-block}
 
 /* Content */
