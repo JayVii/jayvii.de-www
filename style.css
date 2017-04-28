@@ -8,8 +8,8 @@ body{
   margin: 0px;
   padding: 0px;
   border: 0px;
-  background: #ffffff;
-  color: #222222;
+  background: #222222;
+  color: #999999;
   overflow: auto;
   font-family: Sans;
   font-size: 18px;
@@ -34,13 +34,13 @@ body{
 div#header{
   padding: 0px;
   margin: 0px;
-  margin-left: 1.8%;
-  margin-right: 2.2%;
+  margin-left: 1.7%;
+  margin-right: 0%;
   margin-bottom: -5px;
   float: left;
   width: auto;
   max-height: 80%;
-  width: 96%}
+  width: 98%}
 .stretch{
   width: 100%;
   height: 100%}
@@ -65,8 +65,7 @@ div#header{
 
 /* Site {{{ */
 div#site{
-  background: #cc0000;
-  background-image: linear-gradient(to bottom, rgba(153,0,0,1), rgba(255,255,255,0.5));
+  background-image: linear-gradient(to bottom, rgba(153,0,0,1), rgba(34,34,34,0.5));
   padding: 0px}
 /* }}} */
 
@@ -116,7 +115,7 @@ div#bm11{
 
 /* }}} */
 
-/* Footer */
+/* Footer {{{ */
 div#footer{
   padding: 0.5%;
   margin: auto;
@@ -126,19 +125,12 @@ div#footer{
   display: inline-block;
   font-size: 70%;
   text-align: right;
-  overflow: auto;
-  border-top: 1px solid #000000;}
-
+  overflow: auto}
+/* }}} */
 /* URLs */
 a{
-  color: #000000;
+  color: #ffffff;
   text-decoration: none}
 a:hover{
-  color: #000000;
+  color: #999999;
   background: rgba(0,0,0,0.1)}
-
-/* Font-Types */
-p{
-  color: #000000;
-  letter-spacing: 2px;
-  border-bottom: 2px solid #000000}
