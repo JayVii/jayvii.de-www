@@ -1,0 +1,144 @@
+/* JayVii (JV)
+ * https://www.jayvii.de/
+ * jayvii@riseup.net */
+
+/* General {{{ */
+body{
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  background: #ffffff;
+  color: #222222;
+  overflow: auto;
+  font-family: Sans;
+  font-size: 18px;
+  -webkit-font-smoothing:antialiased;
+  -moz-font-smoothing:antialiased;
+  -ms-font-smoothing:antialiased;
+  -o-font-smoothing:antialiased;
+  font-smoothing:antialiased}
+/* }}} */
+
+/* Border-Class {{{ */
+.border{
+  height: 100%;
+  width: 96%;
+  padding: 0px;
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block}
+/* }}} */
+
+/* Header {{{ */
+div#header{
+  padding: 0px;
+  margin: 0px;
+  margin-left: 1.8%;
+  margin-right: 2.2%;
+  margin-bottom: -5px;
+  float: left;
+  width: auto;
+  max-height: 80%;
+  width: 96%}
+.stretch{
+  width: 100%;
+  height: 100%}
+/* }}} */
+
+/* Search {{{ */
+.search{
+  width: 50%;
+  height: 18px;
+  padding: 5px;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 1px solid #000000;
+  text-align: center}
+.search:hover{
+  border:1px solid #999999}
+.search:focus{
+  border:1px solid #999999}
+/* }}} */
+
+/* Site {{{ */
+div#site{
+  background: #cc0000;
+  background-image: linear-gradient(to bottom, rgba(153,0,0,1), rgba(255,255,255,0.5));
+  padding: 0px}
+/* }}} */
+
+/* Bookmarks-Class {{{ */
+div#bookmarks{
+  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%}
+.bookmarks{
+  text-align: center;
+  display: inline-block;
+  padding: 0.5%;
+  display: inline-block;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%}
+/* }}} */
+
+/* Bookmarks {{{ */
+div#bookmarks{
+  padding: 2%;
+  text-align: center}
+div#bm1{
+  border: 2px solid #ccca00}
+div#bm2{
+  border: 2px solid #cca800}
+div#bm3{
+  border: 2px solid #cc7d00}
+div#bm4{
+  border: 2px solid #cc4d00}
+div#bm5{
+  border: 2px solid #95cc00}
+div#bm6{
+  border: 2px solid #00cc4d}
+div#bm7{
+  border: 2px solid #0073cc}
+div#bm8{
+  border: 2px solid #6a00cc}
+div#bm9{
+  border: 2px solid #96ff88}
+div#bm10{
+  border: 2px solid #88fff2}
+div#bm11{
+  border: 2px solid #cb88ff}
+
+/* }}} */
+
+/* Footer */
+div#footer{
+  padding: 0.5%;
+  margin: auto;
+  float: right;
+  height: 90%;
+  width: 99%;
+  display: inline-block;
+  font-size: 70%;
+  text-align: right;
+  overflow: auto;
+  border-top: 1px solid #000000;}
+
+/* URLs */
+a{
+  color: #000000;
+  text-decoration: none}
+a:hover{
+  color: #000000;
+  background: rgba(0,0,0,0.1)}
+
+/* Font-Types */
+p{
+  color: #000000;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #000000}
