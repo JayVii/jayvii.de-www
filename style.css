@@ -51,7 +51,7 @@ div#header{
   width: 50%;
   height: 18px;
   padding: 5px;
-  margin-top: 10%;
+  margin-top: 7%;
   margin-bottom: 5%;
   margin-left: 25%;
   margin-right: 25%;
@@ -69,7 +69,7 @@ div#site{
   padding: 0px}
 /* }}} */
 
-/* Bookmarks-Class {{{ */
+/* Bookmarks {{{ */
 div#bookmarks{
   height: 100%;
   width: 50%;
@@ -84,6 +84,16 @@ div#bookmarks{
   margin-right: 4%;
   margin-top: 2%;
   margin-bottom: 2%}
+/* }}} */
+
+/* Text {{{ */
+div#text{
+  height: 100%;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%}
 /* }}} */
 
 /* Bookmarks {{{ */
@@ -127,10 +137,11 @@ div#footer{
   text-align: right;
   overflow: auto}
 /* }}} */
-/* URLs */
+
+/* URLs {{{ */
 a{
   color: #ffffff;
   text-decoration: none}
 a:hover{
-  color: #999999;
-  background: rgba(0,0,0,0.1)}
+  color: #999999}
+/* }}} */

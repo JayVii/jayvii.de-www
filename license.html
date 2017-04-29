@@ -1,69 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head><!--metahead{{{-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>JayVii</title>
     <link rev="made" href="mailto:jayvii@riseup.net" />
-    <meta name="description" content="JayVii / Landing-Page. This is a Javascript-less website. The goal is to provide the same functionality for every webbrowser out there, without the need to run javascript or non-free portions of code on your machine.">
-    <link rel="icon" type="image/x-icon" href="./media/images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./css/main.css"/>
-  </head>
-
+    <meta name="description" content="JayVii / Landing-Page.">
+    <link rel="icon" type="image/x-icon" href="./media/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="./style.css"/>
+  </head><!--metahead}}}-->
   <body>
-    <div id="site">
-      <div id="header">
-        <img class="header" src="./media/images/header.svg" alt="JayVii - The JS-less website"/>
-      </div><!--header-->
-      <div id="main">
-        <div id="navigation">
-          <div id="mysites">
-            <a href="https://git.jayvii.de/"><img src="./media/images/git.ico" alt="git" height=15 width=15> Kallithea</a>
-            <a href="http://wallabag.jayvii.de/"><img src="./media/images/wallabag.ico" alt="wb" height=15 width=15> Wallabag</a>
-            <a href="https://music.jayvii.de/"><img src="./media/images/music.ico" alt="music" height=15 width=15> Cherry</a>
-          </div><!--mysites-->
-          <div id="thissite">
-            <a href="./index.html">Home</a>
-            <a href="./vulture.html">Vulture</a>
-            <a href="./philosophy.html">Philosophy</a>
-            <a href="./about.html">About</a>
-          </div><!--thissite-->
-        </div><!--navigation-->
-        <div id="contentbox">
-          <div id="content">
-            <h2>Licenses:</h2>
-            <iframe id="frames" height="100%" width="100%" scrolling="yes" frameborder="0" src="./content/license.html"><a href="./content/license.html">LICENSE</a></iframe>
-          </div><!--content-->
-        </div><!--contentbox-->
-        <div id="lists">
-          <div id="projects">
-            <p>My Projects</p>
-            <ul>
-              <li><a href="https://addons.mozilla.org/en-US/firefox/collections/JayVii/tinfoilhat-for-firefox/">Tinfoilhat (Fx)</a>
-              <li><a href="https://addons.mozilla.org/en-US/seamonkey/collections/JayVii/tinfoilhat-for-seamonkey/">Tinfoilhat (SM)</a>
-              <li><a href="https://git.jayvii.de/NeoVim-Xterm">NeoVim-Xterm</a>
-              <li><a href="https://git.jayvii.de/Scripts/Hostblock">Hostblocker</a>
-              <li><a href="https://git.jayvii.de/Scripts/Musicsorter">Music-Sorter</a>
-              <li><a href="https://git.jayvii.de/Scripts/">...</a>
-            </ul>
-          </div><!--projects-->
-          <div id="recommend">
-            <p>Favorite Software</p>
-            <ul>
-              <li><a href="https://neovim.io/">NeoVim</a>
-              <li><a href="https://www.r-project.org/">R</a>
-              <li><a href="https://www.tug.org/texlive/">TeX Live</a>
-              <li><a href="https://nixos.org/">NixOS</a>
-              <li><a href="http://www.rainbowstream.org/">Rainbowstream</a>
-              <li><a href="https://pagekite.net/">Pagekite</a>
-            </ul>
-	  </div><!--recommend-->
-        </div><!--lists-->
-      </div><!--main-->
-      <div id="footer">
-        <a href="./license.html">License (GPLv3)</a>
+    <div id="header" class="border"><!--header{{{-->
+      <img src="./media/header.svg" class="stretch" alt="JayVii"/>
+    </div><!--header}}}-->
+    <div id="site" class="border">
+      <div id="footer"><!--footer{{{-->
+        <a href="./index.html">Main</a>
         <a href="https://git.jayvii.de/jayvii.de/www">Source</a>
         <a href="mailto:jayvii@riseup.net">Contact</a>
-      </div><!--footer-->
+      </div><!--footer}}}-->
+      <div id="text"><!--text{{{-->
+	<h3>Code-License (GPLv3)</h3>
+	This program is free software: you can redistribute it and/or modify<br>
+	it under the terms of the GNU General Public License as published by<br>
+	the Free Software Foundation, either version 3 of the License, or<br>
+	(at your option) any later version.<br><br>
+	This program is distributed in the hope that it will be useful,<br>
+	but WITHOUT ANY WARRANTY; without even the implied warranty of<br>
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the<br>
+	GNU General Public License for more details.<br>
+	You should have received a copy of the GNU General Public License<br>
+	along with this program.  If not, see <a target="_blank" href="http://www.gnu.org/licenses/"><b>gnu.org/licenses/</b></a>.<br><br>
+	<i>JV: <a target="_blank" href="https://git.jayvii.de/jayvii.de/www/"><b>see & get code here</b></a>.</i><br>
+	<hr>
+	<h3>Assets-License (CC-by-SA)</h3>
+        <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br>
+	This work is licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><b>Creative Commons Attribution-ShareAlike 4.0 International License</b></a>.<br><br>
+	<i>JV: <a target="_blank" href="https://git.jayvii.de/jayvii.de/www/"><b>see & get assests here</b></a>.</i><br>
+	<hr>
+      </div><!--text}}}-->
     </div><!--site-->
   </body>
 </html>
