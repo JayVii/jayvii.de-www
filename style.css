@@ -79,7 +79,6 @@ div#bookmarks{
   text-align: center;
   display: inline-block;
   padding: 0.5%;
-  display: inline-block;
   margin-left: 4%;
   margin-right: 4%;
   margin-top: 2%;
@@ -122,6 +121,9 @@ div#bm10{
   border: 2px solid #88fff2}
 div#bm11{
   border: 2px solid #cb88ff}
+div#bm12{
+  border: 2px solid #ff8888}
+
 
 /* }}} */
 
