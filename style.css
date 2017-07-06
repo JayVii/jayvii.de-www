@@ -8,8 +8,8 @@ body{
   margin: 0px;
   padding: 0px;
   border: 0px;
-  background: #222222;
-  color: #999999;
+  background: #ffffff;
+  color: #000000;
   overflow: auto;
   font-family: Sans;
   font-size: 18px;
@@ -64,31 +64,32 @@ div#header{
 /* }}} */
 
 /* Site {{{ */
-div#site{
-  background-image: linear-gradient(to bottom, rgba(153,0,0,1), rgba(34,34,34,0.5));
-  padding: 0px}
+/*div#site{
+  background-image: linear-gradient(to bottom, rgba(255,255,255,255), rgba(0,0,0,0.1));
+  padding: 0px}*/
 /* }}} */
 
-/* Bookmarks {{{ */
-div#bookmarks{
+/* Dictionary {{{ */
+div#dictionary{
+  border-left: thick solid #b3b3b3;
+  font-family: Times;
+  margin: auto;
+  margin-top: 7%;
+  margin-bottom: 10%;
   height: 100%;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%}
-.bookmarks{
+  width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
   text-align: center;
-  display: inline-block;
-  padding: 0.5%;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 2%;
-  margin-bottom: 2%}
+  color: #000000}
 /* }}} */
 
 /* Text {{{ */
 div#text{
+  font-family: Times;
   height: 100%;
   width: 50%;
+  text-align: center;
   margin-left: 25%;
   margin-right: 25%;
   margin-top: 5%;
@@ -97,40 +98,54 @@ div#text{
 
 /* Bookmarks {{{ */
 div#bookmarks{
-  padding: 2%;
-  text-align: center}
+  padding: 1%;
+  text-align: center;
+  color: #606060;
+  height: 100%;
+  width: 50%;
+  margin-top: 10%;
+  margin-left: 20%;
+  margin-right: 20%}
+.bookmarks{
+  text-align: center;
+  display: inline-block;
+  padding: 0.5%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-top: 2%;
+  margin-bottom: 2%}
 div#bm1{
-  border: 2px solid #ccca00}
+  border: 2px solid #93996b}
 div#bm2{
-  border: 2px solid #cca800}
+  border: 2px solid #70a19d}
 div#bm3{
-  border: 2px solid #cc7d00}
+  border: 2px solid #92b8d2}
 div#bm4{
-  border: 2px solid #cc4d00}
+  border: 2px solid #898cc4}
 div#bm5{
-  border: 2px solid #95cc00}
+  border: 2px solid #d394b3}
 div#bm6{
-  border: 2px solid #00cc4d}
+  border: 2px solid #dc9c9b}
 div#bm7{
-  border: 2px solid #0073cc}
+  border: 2px solid #cb9f8d}
 div#bm8{
-  border: 2px solid #6a00cc}
+  border: 2px solid #b5a87e}
 div#bm9{
-  border: 2px solid #96ff88}
+  border: 2px solid #fde8b0}
 div#bm10{
-  border: 2px solid #88fff2}
+  border: 2px solid #70a1a1}
 div#bm11{
-  border: 2px solid #cb88ff}
+  border: 2px solid #5c7983}
 div#bm12{
-  border: 2px solid #ff8888}
-
-
+  border: 2px solid #2e3e42}
 /* }}} */
 
 /* Footer {{{ */
 div#footer{
+  border-bottom: thin solid #606060;
   padding: 0.5%;
   margin: auto;
+  margin-bottom: 5%;
   float: right;
   height: 90%;
   width: 99%;
@@ -142,7 +157,7 @@ div#footer{
 
 /* URLs {{{ */
 a{
-  color: #ffffff;
+  color: #606060;
   text-decoration: none}
 a:hover{
   color: #999999}
