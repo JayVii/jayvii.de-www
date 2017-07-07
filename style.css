@@ -5,14 +5,13 @@
 /* General {{{ */
 body{
   height: 100%;
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0%;
+  padding: 0%;
   background: #ffffff;
   color: #000000;
   overflow: auto;
   font-family: Sans;
-  font-size: 18px;
+  font-size: 140%;
   -webkit-font-smoothing:antialiased;
   -moz-font-smoothing:antialiased;
   -ms-font-smoothing:antialiased;
@@ -31,7 +30,7 @@ body{
 /* }}} */
 
 /* Header {{{ */
-div#header{
+/*div#header{
   padding: 0px;
   margin: 0px;
   margin-left: 1.7%;
@@ -43,7 +42,16 @@ div#header{
   width: 98%}
 .stretch{
   width: 100%;
-  height: 100%}
+  height: 100%}*/
+/* }}} */
+
+/* Headline {{{ */
+div#headline{
+  font-size: 100%;
+  font-family: Sans;
+  color: #000000;
+  text-align: center;
+  padding-bottom: 2%}
 /* }}} */
 
 /* Search {{{ */
@@ -87,6 +95,7 @@ div#dictionary{
 /* Text {{{ */
 div#text{
   font-family: Times;
+  font-size: 80%;
   height: 100%;
   width: 50%;
   text-align: center;
@@ -96,48 +105,96 @@ div#text{
   margin-bottom: 5%}
 /* }}} */
 
+/* FAQ {{{ */
+div#faq{
+  font-family: Sans;
+  font-size: 60%;
+  height: 100%;
+  width: 40%;
+  text-align: left;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 2%}
+/* }}} */
+
+/* Feeds {{{ */
+div#feeds{
+  padding: 0%;
+  text-align: center;
+  color: #606060;
+  height: 100%;
+  width: 70%;
+  margin-top: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 5%}
+/* }}} */
+
 /* Bookmarks {{{ */
 div#bookmarks{
   padding: 1%;
   text-align: center;
   color: #606060;
   height: 100%;
-  width: 60%;
+  width: 70%;
   margin-top: 10%;
-  margin-left: 20%;
-  margin-right: 20%}
+  margin-left: 15%;
+  margin-right: 15%}
 .bookmarks{
   text-align: center;
   display: inline-block;
-  padding: 0.5%;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 2%;
-  margin-bottom: 2%}
+  padding: 1%;
+  padding-top: 2.2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  background-repeat: no-repeat;
+  background-position: center top}
+.bookmarks a{
+  color: #ffffff;
+  text-shadow: 0px 0px 1.5px #000000;
+  font-size: 80%}
+.bookmarks a:hover{
+  color: #ffffff;
+  text-shadow: 0px 0px 2.5px #000000}
 div#bm1{
-  border: 2px solid #93996b}
+  background-image: url("./media/reddit_linux.svg");
+  background-size: 30%}
 div#bm2{
-  border: 2px solid #70a19d}
+  background-image: url("./media/reddit_generic.svg");
+  background-size: 23%}
 div#bm3{
-  border: 2px solid #92b8d2}
+  background-image: url("./media/reddit_dataisbeautiful.svg");
+  background-size: 15%}
 div#bm4{
-  border: 2px solid #898cc4}
+  background-image: url("./media/rproject.svg");
+  background-size: 25%}
 div#bm5{
-  border: 2px solid #d394b3}
+  background-image: url("./media/editor_generic.svg");
+  background-size: 25%}
 div#bm6{
-  border: 2px solid #dc9c9b}
+  background-image: url("./media/reddit_latex.svg");
+  background-size: 70%}
 div#bm7{
-  border: 2px solid #cb9f8d}
+  background-image: url("./media/rproject.svg");
+  background-size: 25%}
 div#bm8{
-  border: 2px solid #b5a87e}
+  background-image: url("./media/stackoverflow.svg");
+  background-size: 18%}
 div#bm9{
-  border: 2px solid #fde8b0}
+  background-image: url("./media/jv_git.svg");
+  background-size: 33%}
 div#bm10{
-  border: 2px solid #70a1a1}
+  background-image: url("./media/jv_feed.svg");
+  background-size: 26%}
 div#bm11{
-  border: 2px solid #5c7983}
+  background-image: url("./media/twitter.svg");
+  background-size: 22%}
 div#bm12{
-  border: 2px solid #2e3e42}
+  background-image: url("./media/mastodon.svg");
+  background-size: 22%}
 /* }}} */
 
 /* Footer {{{ */
