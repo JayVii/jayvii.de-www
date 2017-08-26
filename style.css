@@ -124,9 +124,12 @@ div#gallery{
   width: 100%}
 div.gallery{
   display: inline-block;
-  margin: 1%}
+  margin: 1%;
+  width: 20%}
 div.gallery img{
-  width: 50%}
+  width: 100%;
+  height: auto;
+  display: inline-block;}
 /* }}} */
 
 /* Date {{{ */
