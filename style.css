@@ -85,9 +85,10 @@ div#dictionary{
   margin-top: 7%;
   margin-bottom: 10%;
   height: 100%;
-  width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
+  max-width: 80%;
+  min-width: 50%;
+  margin-left: 10%;
+  margin-right: 10%;
   text-align: center;
   color: #000000}
 /* }}} */
@@ -113,6 +114,19 @@ div#postconten{
   height: 100%;
   width: 100%;
   overflow: auto}
+/* }}} */
+
+/* Gallery {{{ */
+div#gallery{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%}
+div.gallery{
+  display: inline-block;
+  margin: 1%}
+div.gallery img{
+  width: 50%}
 /* }}} */
 
 /* Date {{{ */
