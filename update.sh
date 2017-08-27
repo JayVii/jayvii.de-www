@@ -2,6 +2,7 @@
 SOURCEURL="https://git.jayvii.de/jayvii.de/www"
 SERVERUSER="www-data:www-data"
 RESTARTCMD="systemctl restart apache2"
+WEBROOT="/var/www/html"
 
 if [ -z  $SOURCEURL ]; then
 	echo "[ERROR] Source URL not set."
@@ -17,12 +18,17 @@ if [ -z $RESTARTCMD ]; then
 	echo "[ERROR] restart command not set."
 	exit 1
 fi
+if [ -z $WEBROOT ]; then
+	echo "[ERROR] webroot directory not set."
+    exit1
+fi
 
+echo "[INFO] Entering webroot"
+cd "$WEBROOT"
 echo "[INFO] Pulling updates from $SOURCEURL"
 git pull
 echo "[INFO] Making readadble/writable by $SERVERUSER"
 chown $SERVERUSER -R ./
-echo "[INFO] Restarting Server with:"
-echo "$RESTARTCMD"
+echo "[INFO] Restarting Server"
 $RESTARTCMD
-echo "Done."
+echo "[INFO] Done."
