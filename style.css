@@ -162,9 +162,10 @@ div#bookmarks{
   background-repeat: no-repeat;
   background-position: center top}
 .bookmarks a{
-  color: #ffffff;
-  text-shadow: 0px 0px 2.5px #000000;
-  font-size: 80%}
+  color: #000000;
+  text-shadow: 0px 0px 1.5px #f0f0f0;
+  font-size: 70%;
+  font-weight: lighter}
 .bookmarks a:hover{
   color: #000000;
   text-shadow: 0px 0px 3.5px #606060}
