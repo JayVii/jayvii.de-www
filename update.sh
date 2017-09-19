@@ -4,7 +4,7 @@ SERVERUSER="www-data:www-data"
 RESTARTCMD="systemctl restart apache2"
 WEBROOT="/var/www/html"
 
-if [ -z  $SOURCEURL ]; then
+if [ -z $SOURCEURL ]; then
 	echo "[ERROR] Source URL not set."
 	exit 1
 fi
