@@ -4,21 +4,21 @@ SOURCEURL="https://git.jayvii.de/jayvii.de/www"
 RESTARTCMD="systemctl restart apache2"
 WEBROOT="/var/www/html"
 
-if [ -z $SOURCEURL ]; then
+if [ -z "$SOURCEURL" ]; then
   echo "[ERROR] Source URL not set."
   exit 1;
 fi
-#if [ -z $SERVERUSER ]; then
+#if [ -z "$SERVERUSER" ]; then
 #  echo "[ERROR] user not set."
 #  echo "Set it in the form of:"
 #  echo "www-data:www-data"
 #  exit 1;
 #fi
-if [ -z $RESTARTCMD ]; then
+if [ -z "$RESTARTCMD" ]; then
   echo "[ERROR] restart command not set."
   exit 1;
 fi
-if [ -z $WEBROOT ]; then
+if [ -z "$WEBROOT" ]; then
   echo "[ERROR] webroot directory not set."
   exit 1;
 fi
