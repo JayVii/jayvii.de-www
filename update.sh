@@ -8,12 +8,12 @@ if [ -z $SOURCEURL ]; then
   echo "[ERROR] Source URL not set."
   exit 1;
 fi
-if [ -z $SERVERUSER ]; then
-  echo "[ERROR] user not set."
-  echo "Set it in the form of:"
-  echo "www-data:www-data"
-  exit 1;
-fi
+#if [ -z $SERVERUSER ]; then
+#  echo "[ERROR] user not set."
+#  echo "Set it in the form of:"
+#  echo "www-data:www-data"
+#  exit 1;
+#fi
 if [ -z $RESTARTCMD ]; then
   echo "[ERROR] restart command not set."
   exit 1;
