@@ -277,6 +277,14 @@ div#header{
   height: 45px;
 }
 
+/* Scrollable items {{{ */
+div#scrollable{
+    overflow: scroll;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 100%;
+}
+
 /* URLs {{{ */
 a{
   color: #606060;
@@ -284,3 +292,11 @@ a{
 a:hover{
   color: #999999}
 /* }}} */
+
+/* text {{{ */
+p{
+  color: #000000;
+  text-decoration: none}
+h2{
+  color: #000000;
+  text-decoration: none}
