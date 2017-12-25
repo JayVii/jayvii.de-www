@@ -1,5 +1,5 @@
 #!/bin/bash
-SOURCEURL="https://git.jayvii.de/jayvii.de/www"
+SOURCEURL="git@localhost:jayvii.de/www.git"
 #SERVERUSER="www-data:www-data"
 RESTARTCMD="systemctl restart apache2"
 WEBROOT="/var/www/html"
