@@ -1,6 +1,5 @@
-/* JayVii (JV)
- * https://www.jayvii.de/
- * jayvii@riseup.net */
+/* Copyright (c) 2018 Jan "JayVii" <jayvii@posteo.de>
+ * SPDX-License-Identifier: GPL-3.0 */
 
 /* General {{{ */
 body{
@@ -147,15 +146,6 @@ div#projects{
   margin-right: auto}
 .projects{
   padding: 10px}
-/* }}} */
-
-/* Scrollable items {{{ */
-div#scrollable{
-    overflow: scroll;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    width: 100%;
-}
 /* }}} */
 
 /* URLs {{{ */

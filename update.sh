@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Copyright (c) 2018 Jan "JayVii" <jayvii@posteo.de>
+# SPDX-License-Identifier: GPL-3.0
+
 SOURCEURL="git@localhost:jayvii.de/www.git"
 #SERVERUSER="www-data:www-data"
 RESTARTCMD="systemctl restart apache2"
