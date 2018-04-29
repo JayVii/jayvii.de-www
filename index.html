@@ -12,6 +12,11 @@
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="./style.css"/>
   </head><!--metahead}}}-->
+  <script>
+    if (location.protocol != 'https:'){
+      location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
+    }
+    </script>
   <body>
     <div id="site" class="border"><!--site-->
 
