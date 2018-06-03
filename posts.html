@@ -2,22 +2,24 @@
      SPDX-License-Identifier: GPL-3.0
 //-->
 
+
 <!DOCTYPE html>
 <html>
   <head><!--metahead{{{-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>JayVii</title>
     <link rev="made" href="mailto:jayvii@posteo.de" />
-    <meta name="description" content="JayVii / Landing-Page.">
+    <meta name="description" content="JayVii / SocialMedia Posts">
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="./style.css"/>
-    <script src="force_ssl.js"></script>
+    <script src="force_ssl.js"></script>    
   </head><!--metahead}}}-->
   <body>
-    <div id="site" class="border"><!--site-->
+    <div id="site" class="border">
 
       <div id="header"><!--header{{{-->
 	<div id="header-left"><!--header-left-->
+	  <a href="./index.html"><img src="./media/back.svg" alt="Back" height="24" width="24"></a>
 	  <a href="https://github.com/JayVii/jayvii.de-www/tree/master/LICENSES"><img src="./media/scale-balance.svg" alt="License" height="24" width="24"></a>
 	  <a href="https://github.com/JayVii/jayvii.de-www"><img src="./media/source-branch.svg" alt="Source" height="24" width="24"></a>
 	</div><!--header-left-->
@@ -29,23 +31,16 @@
 	</div><!--header-right-->
       </div><!--header}}}-->
 
-      <div id="dictionary"><!--dictionary{{{-->
-	<div id="dictionary-text"><!--dictionary-text-->
-	  <p><strong>jayvii</strong> <em>/dʒeɪ:wiː/n</em><br>
-	  <strong>1:</strong></small> a <a href="https://jeftrier.wordpress.com/">federalist*</a> & passionate european
-	  <strong>2:</strong></small> an <a href="https://github.com/JayVii">opensource enthusiast</a> & <a href="https://github.com/JayVii?tab=repositories&q=[R]">R-scripter</a>
-	  <strong>3:</strong></small> an occasional <a href="https://twitter.com/JayVii_de">tweeter</a> & <a href="https://mastodon.social/@JayVii_de">tooter</a>
-	  <strong>4:</strong></small> an advocate of open science & open education</p>
-	</div><!--dictionary-text-->
-      </div><!--dictionary}}}-->
+      <div id="headline" class="border"><!--headline{{{-->
+        <h3>Social Media Feed</h3>
+      </div><!--headline}}}-->
 
-      <div id="projects"><!--projects{{{-->
-	<a href="./feeds.html"><img class="projects" src="./media/feed.png" alt="Feeds" height="100" width="100"></a>
-	<a href="./blog/"><img class="projects" src="./media/blog.png" alt="Blog" height="100" width="100"></a>
-	<a href="./posts.html/"><img class="projects" src="./media/post_archive.png" alt="Post-Archives" height="100" width="100"></a>
-      </div><!--projects}}}-->
-
-      <p><small>* board member &amp; online-commissioner of <a href="https://jeftrier.wordpress.com/">JEF Trier</a></small></p>
+      <div id="feeds"><!--archive-feed{{{-->
+	<iframe src="./archive/public/recent-100.html" height=500px width=70%></iframe>
+	<p>May not always be up to date (updated weekly)</p>
+	<a href="https://mastodon.social/@JayVii_de" alt = "Fediverse"><img src = "./media/mastodon.svg"</a>
+	<a href="https://twitter.com/JayVii_de" alt = "Twitter"><img src = "./media/twitter.svg"</a>
+      </div><!--archive-feed}}}-->
 
     </div><!--site-->
   </body>
