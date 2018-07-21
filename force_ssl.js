@@ -2,6 +2,6 @@
 // SPDX-License-Identifier: GPL-3.0
 
 // if protocol is not https, use https!
-if (location.protocol != 'https:'){
+if (location.protocol == 'http:'){
     location.href = 'https:' + window.location.href.substring(window.location.protocol.length);
 }
