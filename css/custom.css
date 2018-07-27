@@ -1,0 +1,61 @@
+/* Copyright (c) 2018 Jan "JayVii" <jayvii@posteo.de>
+ * SPDX-License-Identifier: GPL-3.0 */
+
+/* Dictionary {{{ */
+div#dictionary{
+  margin: auto;
+  height: 100%;
+  max-width: 95%;
+  min-width: 50%;
+  margin-top: 100px;
+  text-align: left;
+  font-family: Times;
+}
+/* }}} */
+
+/* Headline {{{ */
+div#headline{
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+a#headline{
+  padding: 5px;
+  margin-top: 10px;
+  float: left;
+  color: #777777;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Sans;
+}
+
+a#headline:hover{
+  color: #ffffff;
+}
+
+a.navbar:hover{
+  background: #333333;
+}
+
+img.navbar{
+  height: 100%;
+  width: 100%;
+}
+/* }}} */
+
+/* Projects {{{ */
+div.projects{
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+}
+
+img.projects{
+  height: 100px;
+  width: 100px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+/* }}} */
