@@ -63,3 +63,9 @@ img.projects{
   display: inline-block;
 }
 /* }}} */
+
+/* Whole Site {{{ */
+body.container{
+  background-color: #ffffff;
+}
+/* }}} */
