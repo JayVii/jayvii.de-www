@@ -5,51 +5,50 @@
 
 <!DOCTYPE html>
 <html>
-  <head><!--metahead{{{-->
+
+
+  <head><!--metahead-{{{-->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>JayVii</title>
     <link rev="made" href="mailto:jayvii@posteo.de" />
-    <meta name="description" content="JayVii / Feed Overview">
+    <meta name="description" content="JayVii / Landing-Page.">
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
-    <script src="force_ssl.js"></script>    
-  </head><!--metahead}}}-->
-  <body>
-    <div id="site" class="border">
+    <link rel="stylesheet" type="text/css" href="./css/brutstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/custom.css"/>
+    <script src="force_ssl.js"></script>
+  </head><!--metahead-}}}-->
 
-      <div id="header"><!--header{{{-->
-	<div id="header-left"><!--header-left-->
-	  <a href="./index.html"><img src="./media/back.svg" alt="Back" height="24" width="24"></a>
-	  <a href="/git/jayvii.de-www/tree/master/LICENSES"><img src="./media/scale-balance.svg" alt="License" height="24" width="24"></a>
-	  <a href="/git/jayvii.de-www"><img src="./media/source-branch.svg" alt="Source" height="24" width="24"></a>
-	</div><!--header-left-->
-	<div id="header-right"><!--header-right-->
-	  <a href="mailto:jayviiATposteoDOTde"><img src="./media/email.svg" alt="Mail" height="24" width="24"></a>
-	  <a href="https://twitter.com/JayVii_de"><img src="./media/twitter.svg" alt="Twitter" height="24" width="24"></a>
-	  <a href="https://mastodon.social/@JayVii_de"><img src="./media/mastodon.svg" alt="Fediverse" height="24" width="24"></a>
-	  <a href="/git"><img src="./media/jv_git.svg" alt="Git" height="24" width="24"></a>
-	</div><!--header-right-->
-      </div><!--header}}}-->
+  <body class="container">
 
-      <div id="headline" class="border"><!--headline{{{-->
-        <h3>Feeds openly available</h3>
-      </div><!--headline}}}-->
+    <div id="header" class="header -invertColor"><!--header-{{{-->
+      <div id="headline" class="namespace">
+	<a href="." id="headline">JV//Site</a>
+	<a href="mailto:jayviiATposteoDOTde" id="headline" class="navbar"><img src="./media/email.svg" class="navbar" alt="Mail"></a>
+	<a href="https://twitter.com/JayVii_de" id="headline" class="navbar"><img src="./media/twitter.svg" class="navbar" alt="Twitter"></a>
+	<a href="https://mastodon.social/@JayVii_de" id="headline" class="navbar"><img src="./media/mastodon.svg" class="navbar" alt="Fediverse"></a>
+	<a href="/git" id="headline" class="navbar"><img src="./media/jv_git.svg" class="navbar" alt="Git"></a>
+	<a href="/git/jayvii.de-www/tree/master/LICENSES" id="headline" class="navbar"><img src="./media/scale-balance.svg" class="navbar" alt="License"></a>
+	<a href="/git/jayvii.de-www" id="headline" class="navbar"><img src="./media/source-branch.svg" class="navbar" alt="Source"></a>
+      </div>
+    </div><!--header-}}}-->
 
-      <div id="feeds"><!--bookmarks{{{-->
-	<a href="./feeds/news.html">Politics and Economy (Eng/Ger)</a><br><br>
-	<a href="./feeds/tech.html">Tech, Linux, FOSS (Eng/Ger)</a><br><br>
-	<a href="./feeds/releases.html">Software Releases(Eng/Ger)</a><br><br>
-	<a href="./feeds/personal.html">Personal Blogs (Eng/Ger)</a><br><br>
-	<a href="./gallery/notifications.php">Gallery Feed(Eng)</a><br><br>
-      </div><!--bookmarks}}}-->
+    <div id="main" class="main"><!--main-content-{{{-->
 
-      <div id="faq" class="border"><!--text{{{-->
-        <h3>What is this?</h3>
-        <p>This is a collection of combined RSS-feeds, generated with <a href="https://github.com/davorg/perlanet">Perlanet</a>.</p>
-        <p>The RSS-Feeds are being polled and and the feeds re-generated every few minutes.</p>
-        <p>They are also available as merged Atom-Feed (XML), for your favorite RSS-Reader.</p>
-      </div><!--text}}}-->
+      <h3>Feeds openly available</h3>
 
-    </div><!--site-->
+      <a href="./feeds/news.html" class="hyperlink">Politics and Economy (Eng/Ger)</a><br><br>
+      <a href="./feeds/tech.html" class="hyperlink">Tech, Linux, FOSS (Eng/Ger)</a><br><br>
+      <a href="./feeds/releases.html" class="hyperlink">Software Releases(Eng/Ger)</a><br><br>
+      <a href="./feeds/personal.html" class="hyperlink">Personal Blogs (Eng/Ger)</a><br><br>
+      <a href="./gallery/notifications.php" class="hyperlink">Gallery Feed(Eng)</a><br><br>
+
+      <h3>What is this?</h3>
+      <p>This is a collection of combined RSS-feeds, generated with <a href="https://github.com/davorg/perlanet" class="hyperlink">Perlanet</a>.</p>
+      <p>The RSS-Feeds are being polled and and the feeds re-generated every few minutes.</p>
+      <p>They are also available as merged Atom-Feed (XML), for your favorite RSS-Reader.</p>
+
+    </div><!--main-content-}}}-->
+
   </body>
+
 </html>
