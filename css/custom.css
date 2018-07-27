@@ -7,7 +7,7 @@ div#dictionary{
   height: 100%;
   max-width: 95%;
   min-width: 50%;
-  margin-top: 100px;
+  margin-top: 10%;
   text-align: left;
   font-family: Times;
 }
@@ -46,16 +46,20 @@ img.navbar{
 
 /* Projects {{{ */
 div.projects{
-  width: 350px;
+  width: 100%;
+  max-width:330px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 5%;
 }
 
 img.projects{
-  height: 100px;
-  width: 100px;
-  padding-left: 5px;
-  padding-right: 5px;
+  height: 31%;
+  width: 31%;
+  max-height: 100px;
+  max-width: 100px;
+  padding-left: 0px;
+  padding-right: 0px;
+  display: inline-block;
 }
 /* }}} */
