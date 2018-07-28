@@ -5,11 +5,13 @@
 div#dictionary{
   margin: auto;
   height: 100%;
-  max-width: 95%;
-  min-width: 50%;
+  max-width: 100%;
   margin-top: 10%;
   text-align: left;
   font-family: Times;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 1.5em;
 }
 /* }}} */
 
@@ -21,7 +23,8 @@ div#headline{
 }
 
 a#headline{
-  padding: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
   margin-top: 10px;
   float: left;
   color: #777777;
@@ -47,10 +50,10 @@ img.navbar{
 /* Projects {{{ */
 div.projects{
   width: 100%;
-  max-width:330px;
+  max-width:380px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 5%;
+  margin-top: 5%;
 }
 
 img.projects{
@@ -58,8 +61,8 @@ img.projects{
   width: 31%;
   max-height: 100px;
   max-width: 100px;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
   display: inline-block;
 }
 /* }}} */
