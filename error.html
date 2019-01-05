@@ -2,6 +2,11 @@
      SPDX-License-Identifier: GPL-3.0
 //-->
 
+<!-- Requires following option in Apache2:
+  ErrorDocument 404 /error.html
+//-->
+
+
 <!DOCTYPE html>
 <html>
 
@@ -11,9 +16,9 @@
     <link rev="made" href="mailto:jayvii@posteo.de" />
     <meta name="description" content="JayVii / Landing-Page.">
     <link rel="icon" type="image/x-icon" href="./media/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./css/brutstrap.css"/>
-    <link rel="stylesheet" type="text/css" href="./css/custom.css"/>
-    <script src="./ssl/force_ssl.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/brutstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/custom.css"/>
+    <script src="/ssl/force_ssl.js"></script>
   </head><!--metahead-}}}-->
 
   <body class="container">
@@ -21,12 +26,12 @@
     <div class="header -invertColor"><!--header-{{{-->
       <div id="headline">
 	<a href="." id="headline">JV//</a>
-	<a href="mailto:jayviiATposteoDOTde" id="headline" class="navbar"><img src="./media/email.svg" class="navbar" alt="Mail"></a>
-	<a href="https://twitter.com/JayVii_de" id="headline" class="navbar"><img src="./media/twitter.svg" class="navbar" alt="Twitter"></a>
-	<a href="https://mastodon.social/@JayVii_de" id="headline" class="navbar"><img src="./media/mastodon.svg" class="navbar" alt="Fediverse"></a>
-	<a href="/git" id="headline" class="navbar"><img src="./media/jv_git.svg" class="navbar" alt="Git"></a>
-	<a href="/git/jayvii.de-www/tree/master/LICENSES" id="headline" class="navbar"><img src="./media/scale-balance.svg" class="navbar" alt="License"></a>
-	<a href="/git/jayvii.de-www" id="headline" class="navbar"><img src="./media/source-branch.svg" class="navbar" alt="Source"></a>
+	<a href="mailto:jayviiATposteoDOTde" id="headline" class="navbar"><img src="/media/email.svg" class="navbar" alt="Mail"></a>
+	<a href="https://twitter.com/JayVii_de" id="headline" class="navbar"><img src="/media/twitter.svg" class="navbar" alt="Twitter"></a>
+	<a href="https://mastodon.social/@JayVii_de" id="headline" class="navbar"><img src="/media/mastodon.svg" class="navbar" alt="Fediverse"></a>
+	<a href="/git" id="headline" class="navbar"><img src="/media/jv_git.svg" class="navbar" alt="Git"></a>
+	<a href="/git/jayvii.de-www/tree/master/LICENSES" id="headline" class="navbar"><img src="/media/scale-balance.svg" class="navbar" alt="License"></a>
+	<a href="/git/jayvii.de-www" id="headline" class="navbar"><img src="/media/source-branch.svg" class="navbar" alt="Source"></a>
       </div>
     </div><!--header-}}}-->
     
@@ -45,7 +50,3 @@
   </body>
 
 </html>
-
-<!-- Requires following option in Apache2:
-  ErrorDocument 404 /error.html
-//-->
