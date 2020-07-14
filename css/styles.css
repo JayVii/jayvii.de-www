@@ -7,7 +7,7 @@ body.container {
     margin-right: auto;
     max-width: 600px;
     min-width: 300px;
-    width: 50%;
+    width: 60%;
     background-color: #fdf6e3;
     color: #586e75;
     font-size: 1em;
@@ -73,8 +73,10 @@ img.navbar {
 
 img.shortlink {
     padding-top: 0.2em;
-    margin-left: 0.5px;
-    margin-right: 0.5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.25%;
+    margin-bottom: 0.25%;
 }
 
 div#dictionary {
@@ -85,7 +87,7 @@ div#dictionary {
     margin-bottom: 2em;
 }
 
-div#shortlink {
+div.shortlink {
     margin-bottom: 3em;
 }
 
