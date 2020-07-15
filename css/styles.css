@@ -71,6 +71,10 @@ img.navbar {
     box-shadow: 0 0 !important;
 }
 
+img.feed {
+    box-shadow: 0 0 !important;
+}
+
 img.shortlink {
     margin-left: 0.5%;
     margin-right: 0.5%;
