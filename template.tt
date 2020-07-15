@@ -1,0 +1,26 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+  <html>
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="refresh" content="1800" >
+      <title>%%TITLE%%</title>
+      <link rel="icon" type="image/x-icon" href="/media/favicon.ico" />
+      <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body class="container">
+
+        <div class="header"><!--header-{{{-->
+            <h1><a href="/" id="headline">JayVii</a></h1>
+            <i class="spacer"></i>
+            <a href="mailto:jayviiATposteoDOTde" id="headline" class="navbar"><img src="./media/email.svg" class="navbar" alt="Mail"></a>
+            <a href="https://twitter.com/JayVii_de" id="headline" class="navbar"><img src="./media/twitter.svg" class="navbar" alt="Twitter"></a>
+            <a href="https://mastodon.social/@JayVii_de" id="headline" class="navbar" rel="me"><img src="./media/mastodon.svg" class="navbar" alt="Fediverse"></a>
+        </div><!--header-}}}-->
+
+    <div id="main"><!--main-content-{{{-->
+
+        <p><a class="hyperlink" href="/feeds/"><- Feed-Overview</a></p>
